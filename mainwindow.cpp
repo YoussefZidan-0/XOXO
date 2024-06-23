@@ -3,7 +3,6 @@
 #include "historydialog.h"
 #include "board.h"
 #include <QMessageBox>
-
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
@@ -24,6 +23,8 @@ MainWindow::MainWindow(QWidget *parent)
     connect(ui->pushButton_7, &QPushButton::clicked, this, [this]() { handleButtonClick(2, 1); });
     connect(ui->pushButton_8, &QPushButton::clicked, this, [this]() { handleButtonClick(2, 2); });
 
+
+
     // Display the initial state of the Tic Tac Toe board
 }
 
@@ -34,12 +35,6 @@ MainWindow::~MainWindow()
 
 void MainWindow::handleButtonClick(int row, int col)
 {
-    // Check if the cell is already taken
-    if (!ticTacToeBoard->isCellEmptyPublic(row, col)) {
-        // QMessageBox::information(this, "Invalid Move", "This cell is already taken. Please choose another cell.");
-        return; // Exit the function if cell is not empty
-    }
-
     // Get the widget at the specified position in the grid layout
     ticTacToeBoard->insertTarget(row, col);
     QWidget *widget = ui->gridLayout_2->itemAtPosition(row, col)->widget();
@@ -71,6 +66,11 @@ void MainWindow::handleButtonClick(int row, int col)
     }
 }
 
+
+
+
+
+
 void MainWindow::resetBoard()
 {
     // Reset the Tic Tac Toe board
@@ -93,48 +93,58 @@ void MainWindow::resetBoard()
     }
 }
 
+
+
+
 void MainWindow::on_lineEdit_returnPressed()
 {
+
 }
+
 
 void MainWindow::on_lineEdit_textChanged(const QString &arg1)
 {
+
 }
+
+
+
+
+
 
 void MainWindow::on_actionPast_Games_triggered()
 {
+
 }
+
 
 void MainWindow::on_commandLinkButton_clicked()
 {
     hide();
-    pastgames = new HistoryDialog(this);
+    pastgames=new HistoryDialog(this);
     pastgames->show();
 }
 
-void MainWindow::on_pushButton_10_clicked() // login
+
+void MainWindow::on_pushButton_10_clicked()//login
 {
-    auto username = ui->username->text();
-    auto password = ui->password->text();
-    if (username == "test" && password == "test")
-        qDebug() << "loggedin success";
+
+    auto username=ui->username->text();
+    auto password=ui->password->text();
+    if(username=="test" && password=="test")
+        qDebug()<<"loggedin success";
 }
 
-void MainWindow::on_pushButton_11_clicked() // signup
+
+void MainWindow::on_pushButton_11_clicked()//signup
 {
+
+
 }
+
 
 void MainWindow::on_actionexit_triggered()
 {
     close();
 }
 
-void MainWindow::on_radioButton_4_clicked() // Slot for O button
-{
-    ticTacToeBoard->current_player = 0; // Set current player to O
-}
-
-void MainWindow::on_radioButton_3_clicked() // Slot for X button
-{
-    ticTacToeBoard->current_player = 1; // Set current player to X
-}
