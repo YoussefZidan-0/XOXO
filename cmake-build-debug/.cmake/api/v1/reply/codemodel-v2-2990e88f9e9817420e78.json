@@ -1,0 +1,70 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-b86fbb9edbfaf07e074e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "XOXO",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "XOXO::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-XOXO-Debug-be74dd1326ac4eb88159.json",
+					"name" : "XOXO",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "XOXO_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-XOXO_autogen-Debug-badd044b0c4e4d3e2d61.json",
+					"name" : "XOXO_autogen",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/white/OneDrive/Documents/GitHub/XOXO/cmake-build-debug",
+		"source" : "C:/Users/white/OneDrive/Documents/GitHub/XOXO"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

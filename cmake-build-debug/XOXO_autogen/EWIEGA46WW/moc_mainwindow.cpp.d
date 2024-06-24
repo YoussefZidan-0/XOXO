@@ -1,7 +1,7 @@
-C:/Users/white/source/repos/XOXO/cmake-build-debug/XOXO_autogen/EWIEGA46WW/moc_mainwindow.cpp: C:/Users/white/source/repos/XOXO/mainwindow.h \
-  C:/Users/white/source/repos/XOXO/cmake-build-debug/XOXO_autogen/moc_predefs.h \
-  C:/Users/white/source/repos/XOXO/board.h \
-  C:/Users/white/source/repos/XOXO/historydialog.h \
+C:/Users/white/OneDrive/Documents/GitHub/XOXO/cmake-build-debug/XOXO_autogen/EWIEGA46WW/moc_mainwindow.cpp: C:/Users/white/OneDrive/Documents/GitHub/XOXO/mainwindow.h \
+  C:/Users/white/OneDrive/Documents/GitHub/XOXO/cmake-build-debug/XOXO_autogen/moc_predefs.h \
+  C:/Users/white/OneDrive/Documents/GitHub/XOXO/board.h \
+  C:/Users/white/OneDrive/Documents/GitHub/XOXO/historydialog.h \
   F:/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/algorithm \
   F:/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/array \
   F:/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/atomic \

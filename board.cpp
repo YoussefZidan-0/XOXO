@@ -7,7 +7,7 @@ Board::Board() {
             board[i][j] = '-';
         }
     }
-    current_player = 1; // Default player is 'X'
+    //current_player = 1; // Removed: Default player will be set externally
 }
 
 void Board::displayBoard() {
@@ -25,12 +25,18 @@ void Board::displayBoard() {
     }
 }
 
+bool Board::isCellEmpty(int row, int col) {
+    return board[row][col] == '-';
+}
+
+bool Board::isCellEmptyPublic(int row, int col) {
+    return isCellEmpty(row, col);
+}
 
 void Board::insertTarget(int row, int col) {
-    // Check if the cell is already occupied
-    if (board[row][col] != '-') {
-        std::cout << "Cell is already occupied. Please try again." << std::endl;
-        return; // Exit the function if cell is occupied
+    // Check if the cell is empty
+    if (!isCellEmpty(row, col)) {
+        return; // Exit the function if cell is not empty
     }
 
     // Check if the target is valid ('X' or 'O')
@@ -43,14 +49,9 @@ void Board::insertTarget(int row, int col) {
         std::cout << "Invalid move. Please try again." << std::endl;
         return; // Exit the function if target is invalid
     }
-
     // Switch players
     current_player = (current_player == 1) ? 0 : 1;
 }
-
-
-
-
 
 int Board::checkWin() {
     // Check rows for a win
@@ -107,7 +108,6 @@ int Board::checkWin() {
 
     return -2; // No winner yet
 }
-
 
 char Board::getCellValue(int row, int col)  {
     // Check if the row and column are within bounds (0 to 2)
