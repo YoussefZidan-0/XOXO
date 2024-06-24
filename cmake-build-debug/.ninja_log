@@ -1,0 +1,11 @@
+# ninja log v5
+4	1397	7409163784093217	XOXO_autogen/timestamp	e97f893f4f4294b4
+4	1397	7409163784093217	XOXO_autogen/mocs_compilation.cpp	e97f893f4f4294b4
+4	1397	7409163784093217	C:/Users/white/source/repos/XOXO/cmake-build-debug/XOXO_autogen/timestamp	e97f893f4f4294b4
+4	1397	7409163784093217	C:/Users/white/source/repos/XOXO/cmake-build-debug/XOXO_autogen/mocs_compilation.cpp	e97f893f4f4294b4
+1402	2682	7409163798148649	CMakeFiles/XOXO.dir/board.cpp.obj	6943cf0309ce818c
+1408	4872	7409163820043731	CMakeFiles/XOXO.dir/main.cpp.obj	23ded96b06aa3c76
+1398	4905	7409163820385686	CMakeFiles/XOXO.dir/XOXO_autogen/mocs_compilation.cpp.obj	b347d2c3cf8cfe2
+1418	4925	7409163820569313	CMakeFiles/XOXO.dir/historydialog.cpp.obj	7e1a131740820214
+1413	5488	7409163826202786	CMakeFiles/XOXO.dir/mainwindow.cpp.obj	e92bf4a3b5cc880d
+5489	6693	7409163838058498	XOXO.exe	38867ad87e3e5d3a
