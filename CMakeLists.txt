@@ -1,5 +1,8 @@
 cmake_minimum_required(VERSION 3.5)
+list(APPEND CMAKE_PREFIX_PATH "F:\\Qt\\6.7.0\\mingw_64\\lib\\cmake")
+list(APPEND CMAKE_PREFIX_PATH "F:\\Qt\\6.7.0\\mingw_64\\lib\\cmake\\Qt6")
 
+set(Qt6GuiTools_DIR "F:\\Qt\\6.7.0\\mingw_64\\lib\\cmake\\Qt6GuiTools")
 project(XOXO VERSION 0.1 LANGUAGES CXX)
 
 set(CMAKE_AUTOUIC ON)

@@ -1,6 +1,5 @@
 #include "board.h"
 #include <iostream>
-
 Board::Board() {
     for (int i = 0; i < 3; ++i) {
         for (int j = 0; j < 3; ++j) {
@@ -118,9 +117,6 @@ char Board::getCellValue(int row, int col)  {
     }
 }
 
-char Board::getCurrentPlayerSymbol()  {
-    return current_player;
-}
 
 void Board::reset() {
     // Reset the Tic Tac Toe board to its initial state
@@ -130,4 +126,120 @@ void Board::reset() {
         }
     }
     current_player = 1; // Reset current player to 'X'
+}
+
+int Board::getCurrentPlayer() {
+    return current_player;
+}
+
+
+
+std::vector<Move> Board::actions(Board& original_board) {
+    std::vector<Move> arr_of_moves;
+
+    for (int i = 0; i < 3; ++i) {
+        for (int j = 0; j < 3; ++j) {
+            if(board[i][j] == '-'){
+                Move move;
+                if(current_player == 1)
+                {
+                    board[i][j] = '1'; //  X if its turn
+                }
+                else
+                {
+                    board[i][j] = '0'; // O if its turn
+                }
+                move.row = i;
+                move.col = j;
+                arr_of_moves.push_back(move);
+                board[i][j] = '-';
+            }
+        }
+    }
+    return arr_of_moves;
+}
+
+
+Move Board::minimax_with_pruning(Board& original_board ,int alpha, int beta){
+    Move bestMove;
+    if(original_board.checkWin() != -2)
+    {
+        bestMove.value = original_board.checkWin();
+        //any invalid values
+        bestMove.row = -1;
+        bestMove.col = -1;
+        return bestMove;
+    }
+
+    //maximizer(X)
+    if(original_board.getCurrentPlayer() == 1)
+    {
+        bestMove.value = MIN;
+        std::vector<Move> possibleMoves = original_board.actions(original_board);
+        for(auto &move : possibleMoves)
+        {
+            Board res_board = result(original_board , move);
+            Move currentMove = minimax_with_pruning(res_board,alpha, beta);
+            if (currentMove.value > bestMove.value) {
+                bestMove = currentMove;
+                bestMove.row = move.row;
+                bestMove.col = move.col;
+            }
+
+            alpha = std::max(alpha, bestMove.value);
+            if(beta <= alpha){
+                break; // beta cut-off
+            }
+        }
+
+        return bestMove;
+
+    }
+
+    //minimizer(O)
+    if(original_board.getCurrentPlayer() == 0)
+    {
+        bestMove.value = MAX;
+        std::vector<Move> possibleMoves = original_board.actions(original_board);
+        for(auto &move : possibleMoves)
+        {
+            Board res_board = result(original_board , move);
+            Move currentMove = minimax_with_pruning(res_board,alpha, beta);
+            if (currentMove.value < bestMove.value) {
+                bestMove = currentMove;
+                bestMove.row = move.row;
+                bestMove.col = move.col;
+            }
+
+            beta = std::min(beta, bestMove.value);
+            if(beta <= alpha){
+                break; // alpha cut-off
+            }
+        }
+        return bestMove;
+    }
+}
+
+
+Board Board::result(Board& original_board ,Move& move) {
+    // Create a new board by copying the state
+    Board newBoard = original_board;
+
+    // Apply the move to the new board
+    newBoard.insertTarget(move.row, move.col);
+
+    // Return the resulting board
+
+    return newBoard;
+}
+
+bool Board::Checkstart(Board& original_board) {
+    for (int i = 0; i < 3; ++i) {
+        for (int j = 0; j < 3; ++j) {
+            if (original_board.board[i][j] != '-') {
+                return false; // A cell is not empty
+            }
+        }
+    }
+    return true; // All cells are empty
 }

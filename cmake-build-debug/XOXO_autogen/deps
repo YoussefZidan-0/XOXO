@@ -1,90 +1,33 @@
 XOXO_autogen/timestamp: \
-	C:/Users/white/source/repos/XOXO/CMakeLists.txt \
-	C:/Users/white/source/repos/XOXO/board.cpp \
-	C:/Users/white/source/repos/XOXO/board.h \
-	C:/Users/white/source/repos/XOXO/cmake-build-debug/CMakeFiles/3.27.8/CMakeCXXCompiler.cmake \
-	C:/Users/white/source/repos/XOXO/cmake-build-debug/CMakeFiles/3.27.8/CMakeRCCompiler.cmake \
-	C:/Users/white/source/repos/XOXO/cmake-build-debug/CMakeFiles/3.27.8/CMakeSystem.cmake \
-	C:/Users/white/source/repos/XOXO/cmake-build-debug/XOXO_autogen/moc_predefs.h \
-	C:/Users/white/source/repos/XOXO/historydialog.cpp \
-	C:/Users/white/source/repos/XOXO/historydialog.h \
-	C:/Users/white/source/repos/XOXO/main.cpp \
-	C:/Users/white/source/repos/XOXO/mainwindow.cpp \
-	C:/Users/white/source/repos/XOXO/mainwindow.h \
-	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXCompiler.cmake.in \
-	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp \
+	C:/Users/white/OneDrive/Documents/QtDesignStudio/XOXO/CMakeLists.txt \
+	C:/Users/white/OneDrive/Documents/QtDesignStudio/XOXO/board.cpp \
+	C:/Users/white/OneDrive/Documents/QtDesignStudio/XOXO/board.h \
+	C:/Users/white/OneDrive/Documents/QtDesignStudio/XOXO/cmake-build-debug/CMakeFiles/3.27.8/CMakeCXXCompiler.cmake \
+	C:/Users/white/OneDrive/Documents/QtDesignStudio/XOXO/cmake-build-debug/CMakeFiles/3.27.8/CMakeRCCompiler.cmake \
+	C:/Users/white/OneDrive/Documents/QtDesignStudio/XOXO/cmake-build-debug/CMakeFiles/3.27.8/CMakeSystem.cmake \
+	C:/Users/white/OneDrive/Documents/QtDesignStudio/XOXO/cmake-build-debug/XOXO_autogen/moc_predefs.h \
+	C:/Users/white/OneDrive/Documents/QtDesignStudio/XOXO/historydialog.cpp \
+	C:/Users/white/OneDrive/Documents/QtDesignStudio/XOXO/historydialog.h \
+	C:/Users/white/OneDrive/Documents/QtDesignStudio/XOXO/main.cpp \
+	C:/Users/white/OneDrive/Documents/QtDesignStudio/XOXO/mainwindow.cpp \
+	C:/Users/white/OneDrive/Documents/QtDesignStudio/XOXO/mainwindow.h \
 	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake \
 	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
 	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake \
-	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCompilerIdDetection.cmake \
-	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake \
-	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompileFeatures.cmake \
-	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompiler.cmake \
-	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake \
-	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake \
-	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineRCCompiler.cmake \
-	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake \
-	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeFindBinUtils.cmake \
 	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake \
 	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake \
 	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake \
 	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake \
-	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeParseImplicitIncludeInfo.cmake \
-	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeParseImplicitLinkInfo.cmake \
-	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeParseLibraryArchitecture.cmake \
-	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeRCCompiler.cmake.in \
 	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeRCInformation.cmake \
-	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystem.cmake.in \
 	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake \
 	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake \
-	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake \
-	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestCompilerCommon.cmake \
-	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestRCCompiler.cmake \
 	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake \
 	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CheckCXXSourceCompiles.cmake \
 	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CheckIncludeFileCXX.cmake \
 	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CheckLibraryExists.cmake \
-	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/ADSP-DetermineCompiler.cmake \
-	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
-	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
-	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
-	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Borland-DetermineCompiler.cmake \
 	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
-	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Clang-DetermineCompiler.cmake \
-	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
-	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake \
-	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
-	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Cray-DetermineCompiler.cmake \
-	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Embarcadero-DetermineCompiler.cmake \
-	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Fujitsu-DetermineCompiler.cmake \
-	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
-	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GHS-DetermineCompiler.cmake \
-	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
 	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake \
-	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-FindBinUtils.cmake \
 	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake \
-	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
-	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/IAR-DetermineCompiler.cmake \
-	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake \
-	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake \
-	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Intel-DetermineCompiler.cmake \
-	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake \
-	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake \
-	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/MSVC-DetermineCompiler.cmake \
-	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/NVHPC-DetermineCompiler.cmake \
-	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/NVIDIA-DetermineCompiler.cmake \
-	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake \
-	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/PGI-DetermineCompiler.cmake \
-	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/PathScale-DetermineCompiler.cmake \
-	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/SCO-DetermineCompiler.cmake \
-	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake \
-	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/TI-DetermineCompiler.cmake \
-	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Tasking-DetermineCompiler.cmake \
-	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake \
-	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Watcom-DetermineCompiler.cmake \
-	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
-	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
-	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
 	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake \
 	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/FindPackageMessage.cmake \
 	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/FindThreads.cmake \
@@ -93,8 +36,6 @@ XOXO_autogen/timestamp: \
 	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake \
 	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Internal/CheckFlagCommonConfig.cmake \
 	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake \
-	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Internal/FeatureTesting.cmake \
-	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-Determine-CXX.cmake \
 	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX-ABI.cmake \
 	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX.cmake \
 	F:/CLion\ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU.cmake \
@@ -115,6 +56,8 @@ XOXO_autogen/timestamp: \
 	F:/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocator.h \
 	F:/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_base.h \
 	F:/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_lockfree_defines.h \
+	F:/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.h \
+	F:/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.tcc \
 	F:/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_string.h \
 	F:/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_string.tcc \
 	F:/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/char_traits.h \
@@ -136,9 +79,12 @@ XOXO_autogen/timestamp: \
 	F:/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/hashtable_policy.h \
 	F:/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/invoke.h \
 	F:/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ios_base.h \
+	F:/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc \
 	F:/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/list.tcc \
 	F:/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.h \
 	F:/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.tcc \
+	F:/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.h \
+	F:/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.tcc \
 	F:/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/localefwd.h \
 	F:/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memory_resource.h \
 	F:/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memoryfwd.h \
@@ -146,6 +92,7 @@ XOXO_autogen/timestamp: \
 	F:/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/nested_exception.h \
 	F:/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/new_allocator.h \
 	F:/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/node_handle.h \
+	F:/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream.tcc \
 	F:/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream_insert.h \
 	F:/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/parse_numbers.h \
 	F:/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/postypes.h \
@@ -206,6 +153,7 @@ XOXO_autogen/timestamp: \
 	F:/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstring \
 	F:/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ctime \
 	F:/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwchar \
+	F:/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwctype \
 	F:/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/debug/assertions.h \
 	F:/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/debug/debug.h \
 	F:/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/exception \
@@ -218,7 +166,10 @@ XOXO_autogen/timestamp: \
 	F:/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/type_traits.h \
 	F:/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/functional \
 	F:/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/initializer_list \
+	F:/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ios \
 	F:/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iosfwd \
+	F:/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream \
+	F:/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
 	F:/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iterator \
 	F:/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/limits \
 	F:/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/list \
@@ -227,6 +178,7 @@ XOXO_autogen/timestamp: \
 	F:/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/new \
 	F:/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/numeric \
 	F:/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/optional \
+	F:/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ostream \
 	F:/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/execution_defs.h \
 	F:/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_algorithm_defs.h \
 	F:/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_memory_defs.h \
@@ -262,6 +214,8 @@ XOXO_autogen/timestamp: \
 	F:/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
 	F:/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
 	F:/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
+	F:/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
+	F:/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
 	F:/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
 	F:/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
 	F:/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
@@ -307,6 +261,7 @@ XOXO_autogen/timestamp: \
 	F:/CLion\ 2023.3.3/bin/mingw/x86_64-w64-mingw32/include/time.h \
 	F:/CLion\ 2023.3.3/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
 	F:/CLion\ 2023.3.3/bin/mingw/x86_64-w64-mingw32/include/wchar.h \
+	F:/CLion\ 2023.3.3/bin/mingw/x86_64-w64-mingw32/include/wctype.h \
 	F:/Qt/6.7.0/mingw_64/include/QtCore/q20functional.h \
 	F:/Qt/6.7.0/mingw_64/include/QtCore/q20memory.h \
 	F:/Qt/6.7.0/mingw_64/include/QtCore/q20type_traits.h \
@@ -594,6 +549,6 @@ XOXO_autogen/timestamp: \
 	F:/Qt/6.7.0/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateConfigVersionImpl.cmake \
 	F:/Qt/6.7.0/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateTargets.cmake \
 	F:/Qt/6.7.0/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateVersionlessTargets.cmake \
-	C:/Users/white/source/repos/XOXO/historydialog.ui \
-	C:/Users/white/source/repos/XOXO/mainwindow.ui \
+	C:/Users/white/OneDrive/Documents/QtDesignStudio/XOXO/historydialog.ui \
+	C:/Users/white/OneDrive/Documents/QtDesignStudio/XOXO/mainwindow.ui \
 	F:/CLion\ 2023.3.3/bin/cmake/win/x64/bin/cmake.exe

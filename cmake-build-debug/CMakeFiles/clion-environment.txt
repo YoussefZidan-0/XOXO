@@ -1,4 +1,4 @@
 ToolSet: 11.0 w64 (local)@F:\CLion 2023.3.3\bin\mingw
 Options: 
 
-Options:-DCMAKE_PREFIX_PATH=/F:/Qt/5.7/clang_64/lib/cmake
+Options:-DCMAKE_MAKE_PROGRAM=F:/CLion 2023.3.3/bin/ninja/win/x64/ninja.exe

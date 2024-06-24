@@ -1,8 +1,9 @@
-C:/Users/white/OneDrive/Documents/GitHub/XOXO/cmake-build-debug/CMakeFiles/XOXO.dir
-C:/Users/white/OneDrive/Documents/GitHub/XOXO/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/white/OneDrive/Documents/GitHub/XOXO/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/white/OneDrive/Documents/GitHub/XOXO/cmake-build-debug/CMakeFiles/list_install_components.dir
-C:/Users/white/OneDrive/Documents/GitHub/XOXO/cmake-build-debug/CMakeFiles/install.dir
-C:/Users/white/OneDrive/Documents/GitHub/XOXO/cmake-build-debug/CMakeFiles/install/local.dir
-C:/Users/white/OneDrive/Documents/GitHub/XOXO/cmake-build-debug/CMakeFiles/install/strip.dir
-C:/Users/white/OneDrive/Documents/GitHub/XOXO/cmake-build-debug/CMakeFiles/XOXO_autogen.dir
+C:/Users/white/OneDrive/Documents/QtDesignStudio/XOXO/cmake-build-debug/CMakeFiles/XOXO.dir
+C:/Users/white/OneDrive/Documents/QtDesignStudio/XOXO/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/white/OneDrive/Documents/QtDesignStudio/XOXO/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/white/OneDrive/Documents/QtDesignStudio/XOXO/cmake-build-debug/CMakeFiles/list_install_components.dir
+C:/Users/white/OneDrive/Documents/QtDesignStudio/XOXO/cmake-build-debug/CMakeFiles/install.dir
+C:/Users/white/OneDrive/Documents/QtDesignStudio/XOXO/cmake-build-debug/CMakeFiles/install/local.dir
+C:/Users/white/OneDrive/Documents/QtDesignStudio/XOXO/cmake-build-debug/CMakeFiles/install/strip.dir
+C:/Users/white/OneDrive/Documents/QtDesignStudio/XOXO/cmake-build-debug/CMakeFiles/XOXO_autogen_timestamp_deps.dir
+C:/Users/white/OneDrive/Documents/QtDesignStudio/XOXO/cmake-build-debug/CMakeFiles/XOXO_autogen.dir

@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>770</width>
+    <width>780</width>
     <height>453</height>
    </rect>
   </property>
@@ -34,7 +34,7 @@
     <item row="3" column="2">
      <spacer name="horizontalSpacer">
       <property name="orientation">
-       <enum>Qt::Horizontal</enum>
+       <enum>Qt::Orientation::Horizontal</enum>
       </property>
       <property name="sizeHint" stdset="0">
        <size>
@@ -84,10 +84,10 @@
        </size>
       </property>
       <property name="frameShape">
-       <enum>QFrame::StyledPanel</enum>
+       <enum>QFrame::Shape::StyledPanel</enum>
       </property>
       <property name="frameShadow">
-       <enum>QFrame::Raised</enum>
+       <enum>QFrame::Shadow::Raised</enum>
       </property>
       <layout class="QGridLayout" name="gridLayout_2">
        <item row="0" column="2">
@@ -281,7 +281,7 @@
     <item row="6" column="3">
      <widget class="QLineEdit" name="password">
       <property name="echoMode">
-       <enum>QLineEdit::Password</enum>
+       <enum>QLineEdit::EchoMode::Password</enum>
       </property>
      </widget>
     </item>
@@ -340,32 +340,22 @@
       <property name="title">
        <string>GroupBox</string>
       </property>
-      <widget class="QRadioButton" name="radioButton">
-       <property name="geometry">
-        <rect>
-         <x>10</x>
-         <y>20</y>
-         <width>91</width>
-         <height>22</height>
-        </rect>
-       </property>
-       <property name="text">
-        <string>AI</string>
-       </property>
-      </widget>
-      <widget class="QRadioButton" name="radioButton_2">
-       <property name="geometry">
-        <rect>
-         <x>10</x>
-         <y>50</y>
-         <width>91</width>
-         <height>22</height>
-        </rect>
-       </property>
-       <property name="text">
-        <string>PVP</string>
-       </property>
-      </widget>
+      <layout class="QGridLayout" name="gridLayout_3">
+       <item row="0" column="0">
+        <widget class="QRadioButton" name="radioButton">
+         <property name="text">
+          <string>AI</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QRadioButton" name="radioButton_2">
+         <property name="text">
+          <string>PVP</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
      </widget>
     </item>
    </layout>
@@ -375,8 +365,8 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>770</width>
-     <height>21</height>
+     <width>780</width>
+     <height>33</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuXOXO">
