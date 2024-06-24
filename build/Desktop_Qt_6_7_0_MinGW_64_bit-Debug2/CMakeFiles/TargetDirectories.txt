@@ -1,0 +1,9 @@
+C:/Users/white/OneDrive/Documents/QtDesignStudio/XOXO/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug2/CMakeFiles/XOXO.dir
+C:/Users/white/OneDrive/Documents/QtDesignStudio/XOXO/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug2/CMakeFiles/edit_cache.dir
+C:/Users/white/OneDrive/Documents/QtDesignStudio/XOXO/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug2/CMakeFiles/rebuild_cache.dir
+C:/Users/white/OneDrive/Documents/QtDesignStudio/XOXO/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug2/CMakeFiles/list_install_components.dir
+C:/Users/white/OneDrive/Documents/QtDesignStudio/XOXO/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug2/CMakeFiles/install.dir
+C:/Users/white/OneDrive/Documents/QtDesignStudio/XOXO/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug2/CMakeFiles/install/local.dir
+C:/Users/white/OneDrive/Documents/QtDesignStudio/XOXO/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug2/CMakeFiles/install/strip.dir
+C:/Users/white/OneDrive/Documents/QtDesignStudio/XOXO/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug2/CMakeFiles/XOXO_autogen_timestamp_deps.dir
+C:/Users/white/OneDrive/Documents/QtDesignStudio/XOXO/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug2/CMakeFiles/XOXO_autogen.dir
