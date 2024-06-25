@@ -5,7 +5,6 @@
 #include <algorithm>
 #include<limits>
 
-
 #define MIN std::numeric_limits<int>::min()
 #define MAX std::numeric_limits<int>::max()
 struct Move;
@@ -47,11 +46,10 @@ public:
 
     //Function to perform Minimax algorithm with alpha beta pruning.
     Move minimax_with_pruning(Board& original_board,int alpha = MIN, int beta = MAX);
-    bool isCellEmpty(int row, int col);
-    bool isCellEmptyPublic(int row, int col); // Public method to check if the cell is empty
 
     bool Checkstart(Board& original_board);
 
+    bool  isCellEmpty(int row, int col);
 };
 
 struct Move{
@@ -60,4 +58,4 @@ struct Move{
     int value; // 1,-1,0 for terminal states . -2 for non terminal states.
 };
 
-#endif // BOARD_H
+#endif

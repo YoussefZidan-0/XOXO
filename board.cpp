@@ -1,12 +1,16 @@
 #include "board.h"
-#include <iostream>
 Board::Board() {
     for (int i = 0; i < 3; ++i) {
         for (int j = 0; j < 3; ++j) {
             board[i][j] = '-';
         }
     }
-    //current_player = 1; // Removed: Default player will be set externally
+}
+
+
+void Board::set_current_player(int player)
+{
+    current_player = player;
 }
 
 void Board::displayBoard() {
@@ -21,28 +25,27 @@ void Board::displayBoard() {
             }
         }
         std::cout << std::endl;
+
+
     }
+    std::cout<<"\n\n=======================================================================\n\n";
 }
 
 bool Board::isCellEmpty(int row, int col) {
-    return board[row][col] == '-';
+    return (board[row][col] == '-');
 }
 
-bool Board::isCellEmptyPublic(int row, int col) {
-    return isCellEmpty(row, col);
-}
+
 
 void Board::insertTarget(int row, int col) {
     // Check if the cell is empty
-    if (!isCellEmpty(row, col)) {
-        return; // Exit the function if cell is not empty
-    }
+
 
     // Check if the target is valid ('X' or 'O')
     if (current_player == 1) {
-        board[row][col] = 'X';
+        board[row][col] = '1';
     } else if (current_player == 0) {
-        board[row][col] = 'O';
+        board[row][col] = '0';
     } else {
         // Invalid target
         std::cout << "Invalid move. Please try again." << std::endl;
@@ -52,14 +55,18 @@ void Board::insertTarget(int row, int col) {
     current_player = (current_player == 1) ? 0 : 1;
 }
 
+
+
+
+
 int Board::checkWin() {
     // Check rows for a win
     for (auto & row : board) {
         if (row[0] != '-' && row[0] == row[1] && row[0] == row[2]) {
-            if (row[0] == 'X') {
+            if (row[0] == '1') {
                 return 1; // X wins
-            } else if (row[0] == 'O') {
-                return 0; // O wins
+            } else if (row[0] == '0') {
+                return -1; // O wins
             }
         }
     }
@@ -67,27 +74,27 @@ int Board::checkWin() {
     // Check columns for a win
     for (int j = 0; j < 3; ++j) {
         if (board[0][j] != '-' && board[0][j] == board[1][j] && board[0][j] == board[2][j]) {
-            if (board[0][j] == 'X') {
+            if (board[0][j] == '1') {
                 return 1; // X wins
-            } else if (board[0][j] == 'O') {
-                return 0; // O wins
+            } else if (board[0][j] == '0') {
+                return -1; // O wins
             }
         }
     }
 
     // Check diagonals for a win
     if (board[0][0] != '-' && board[0][0] == board[1][1] && board[0][0] == board[2][2]) {
-        if (board[0][0] == 'X') {
+        if (board[0][0] == '1') {
             return 1; // X wins
-        } else if (board[0][0] == 'O') {
-            return 0; // O wins
+        } else if (board[0][0] == '0') {
+            return -1; // O wins
         }
     }
     if (board[0][2] != '-' && board[0][2] == board[1][1] && board[0][2] == board[2][0]) {
-        if (board[0][2] == 'X') {
+        if (board[0][2] == '1') {
             return 1; // X wins
-        } else if (board[0][2] == 'O') {
-            return 0; // O wins
+        } else if (board[0][2] == '0') {
+            return -1; // O wins
         }
     }
 
@@ -102,7 +109,7 @@ int Board::checkWin() {
         }
     }
     if (draw) {
-        return -1; // Draw
+        return 0; // Draw
     }
 
     return -2; // No winner yet
@@ -117,6 +124,9 @@ char Board::getCellValue(int row, int col)  {
     }
 }
 
+int Board::getCurrentPlayer()  {
+    return current_player;
+}
 
 void Board::reset() {
     // Reset the Tic Tac Toe board to its initial state
@@ -128,9 +138,11 @@ void Board::reset() {
     current_player = 1; // Reset current player to 'X'
 }
 
-int Board::getCurrentPlayer() {
-    return current_player;
-}
+
+
+
+
+
 
 
 
