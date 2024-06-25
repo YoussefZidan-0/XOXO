@@ -35,7 +35,7 @@ MainWindow::~MainWindow()
 
 void MainWindow::handleButtonClick(int row, int col)
 {
-    if (!ticTacToeBoard->isCellEmptyPublic(row, col)) {
+    if (ticTacToeBoard->board[row] [col] != '-') {
         // QMessageBox::information(this, "Invalid Move", "This cell is already taken. Please choose another cell.");
         return; // Exit the function if cell is not empty
     }
@@ -46,11 +46,13 @@ void MainWindow::handleButtonClick(int row, int col)
     QWidget *widget = ui->gridLayout_2->itemAtPosition(row, col)->widget();
     QPushButton *button = qobject_cast<QPushButton*>(widget);
 
-    if (button) {
-        char cellValue = ticTacToeBoard->getCellValue(row, col);
-        button->setText(QString(cellValue));
-    }
-
+ if (button) {
+    char cellValue = ticTacToeBoard->getCellValue(row, col);
+    if (cellValue == '1') {
+        button->setText("X");
+    } else {
+        button->setText("O");    }
+}
     int result = ticTacToeBoard->checkWin();
     if (result != -2) {
         // If the game is over, display the result
@@ -68,10 +70,14 @@ void MainWindow::handleButtonClick(int row, int col)
         QWidget *widget2 = ui->gridLayout_2->itemAtPosition(aiMove.row, aiMove.col)->widget();
         QPushButton *button2 = qobject_cast<QPushButton*>(widget2);
 
-        if (button2) {
-            char cellValue = ticTacToeBoard->getCellValue(aiMove.row, aiMove.col);
-            button2->setText(QString(cellValue));
-        }
+    if (button2) {
+    char cellValue = ticTacToeBoard->getCellValue(aiMove.row, aiMove.col);
+    if (cellValue == '0') {
+        button2->setText("O");
+    } else {
+        button2->setText("X");
+    }
+}
 
         result = ticTacToeBoard->checkWin();
         if (result != -2) {
@@ -86,11 +92,12 @@ void MainWindow::handleButtonClick(int row, int col)
 void MainWindow::displayGameResult(int result)
 {
     if (result == 1) {
-        QMessageBox::information(this, "Game Over", "Player X wins!");
+        QMessageBox::information(this, "Game Over", "Player X wins!\n لاعب X يفوز");
     } else if (result == 0) {
-        QMessageBox::information(this, "Game Over", "Player O wins!");
+        QMessageBox::information(this, "Game Over", "It's a draw!\n تعادل");
     } else if (result == -1) {
-        QMessageBox::information(this, "Game Over", "It's a draw!");
+        QMessageBox::information(this, "Game Over", "Player O wins!\n لاعب O يفوز");
+
     }
     resetBoard();
 }
