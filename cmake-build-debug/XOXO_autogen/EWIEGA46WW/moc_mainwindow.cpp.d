@@ -1,5 +1,6 @@
 C:/Users/white/OneDrive/Documents/QtDesignStudio/XOXO/cmake-build-debug/XOXO_autogen/EWIEGA46WW/moc_mainwindow.cpp: C:/Users/white/OneDrive/Documents/QtDesignStudio/XOXO/mainwindow.h \
   C:/Users/white/OneDrive/Documents/QtDesignStudio/XOXO/cmake-build-debug/XOXO_autogen/moc_predefs.h \
+  C:/Users/white/OneDrive/Documents/QtDesignStudio/XOXO/DatabaseManager.h \
   C:/Users/white/OneDrive/Documents/QtDesignStudio/XOXO/board.h \
   C:/Users/white/OneDrive/Documents/QtDesignStudio/XOXO/historydialog.h \
   F:/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/algorithm \
@@ -221,6 +222,8 @@ C:/Users/white/OneDrive/Documents/QtDesignStudio/XOXO/cmake-build-debug/XOXO_aut
   F:/CLion\ 2023.3.3/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
   F:/CLion\ 2023.3.3/bin/mingw/x86_64-w64-mingw32/include/wchar.h \
   F:/CLion\ 2023.3.3/bin/mingw/x86_64-w64-mingw32/include/wctype.h \
+  F:/Qt/6.7.0/mingw_64/include/QtCore/QCryptographicHash \
+  F:/Qt/6.7.0/mingw_64/include/QtCore/QDateTime \
   F:/Qt/6.7.0/mingw_64/include/QtCore/q20functional.h \
   F:/Qt/6.7.0/mingw_64/include/QtCore/q20memory.h \
   F:/Qt/6.7.0/mingw_64/include/QtCore/q20type_traits.h \
@@ -239,6 +242,7 @@ C:/Users/white/OneDrive/Documents/QtDesignStudio/XOXO/cmake-build-debug/XOXO_aut
   F:/Qt/6.7.0/mingw_64/include/QtCore/qbytearrayalgorithms.h \
   F:/Qt/6.7.0/mingw_64/include/QtCore/qbytearraylist.h \
   F:/Qt/6.7.0/mingw_64/include/QtCore/qbytearrayview.h \
+  F:/Qt/6.7.0/mingw_64/include/QtCore/qcalendar.h \
   F:/Qt/6.7.0/mingw_64/include/QtCore/qchar.h \
   F:/Qt/6.7.0/mingw_64/include/QtCore/qcompare.h \
   F:/Qt/6.7.0/mingw_64/include/QtCore/qcompare_impl.h \
@@ -250,8 +254,10 @@ C:/Users/white/OneDrive/Documents/QtDesignStudio/XOXO/cmake-build-debug/XOXO_aut
   F:/Qt/6.7.0/mingw_64/include/QtCore/qcontainerinfo.h \
   F:/Qt/6.7.0/mingw_64/include/QtCore/qcontainertools_impl.h \
   F:/Qt/6.7.0/mingw_64/include/QtCore/qcontiguouscache.h \
+  F:/Qt/6.7.0/mingw_64/include/QtCore/qcryptographichash.h \
   F:/Qt/6.7.0/mingw_64/include/QtCore/qdarwinhelpers.h \
   F:/Qt/6.7.0/mingw_64/include/QtCore/qdatastream.h \
+  F:/Qt/6.7.0/mingw_64/include/QtCore/qdatetime.h \
   F:/Qt/6.7.0/mingw_64/include/QtCore/qdebug.h \
   F:/Qt/6.7.0/mingw_64/include/QtCore/qendian.h \
   F:/Qt/6.7.0/mingw_64/include/QtCore/qexceptionhandling.h \
@@ -271,6 +277,7 @@ C:/Users/white/OneDrive/Documents/QtDesignStudio/XOXO/cmake-build-debug/XOXO_aut
   F:/Qt/6.7.0/mingw_64/include/QtCore/qlatin1stringview.h \
   F:/Qt/6.7.0/mingw_64/include/QtCore/qline.h \
   F:/Qt/6.7.0/mingw_64/include/QtCore/qlist.h \
+  F:/Qt/6.7.0/mingw_64/include/QtCore/qlocale.h \
   F:/Qt/6.7.0/mingw_64/include/QtCore/qlogging.h \
   F:/Qt/6.7.0/mingw_64/include/QtCore/qmalloc.h \
   F:/Qt/6.7.0/mingw_64/include/QtCore/qmap.h \
@@ -363,10 +370,22 @@ C:/Users/white/OneDrive/Documents/QtDesignStudio/XOXO/cmake-build-debug/XOXO_aut
   F:/Qt/6.7.0/mingw_64/include/QtGui/qtransform.h \
   F:/Qt/6.7.0/mingw_64/include/QtGui/qwindowdefs.h \
   F:/Qt/6.7.0/mingw_64/include/QtGui/qwindowdefs_win.h \
+  F:/Qt/6.7.0/mingw_64/include/QtSql/QSqlDatabase \
+  F:/Qt/6.7.0/mingw_64/include/QtSql/QSqlError \
+  F:/Qt/6.7.0/mingw_64/include/QtSql/QSqlQuery \
+  F:/Qt/6.7.0/mingw_64/include/QtSql/qsqldatabase.h \
+  F:/Qt/6.7.0/mingw_64/include/QtSql/qsqlerror.h \
+  F:/Qt/6.7.0/mingw_64/include/QtSql/qsqlquery.h \
+  F:/Qt/6.7.0/mingw_64/include/QtSql/qtsql-config.h \
+  F:/Qt/6.7.0/mingw_64/include/QtSql/qtsqlexports.h \
+  F:/Qt/6.7.0/mingw_64/include/QtSql/qtsqlglobal.h \
   F:/Qt/6.7.0/mingw_64/include/QtWidgets/QDialog \
   F:/Qt/6.7.0/mingw_64/include/QtWidgets/QMainWindow \
+  F:/Qt/6.7.0/mingw_64/include/QtWidgets/QMessageBox \
   F:/Qt/6.7.0/mingw_64/include/QtWidgets/qdialog.h \
+  F:/Qt/6.7.0/mingw_64/include/QtWidgets/qdialogbuttonbox.h \
   F:/Qt/6.7.0/mingw_64/include/QtWidgets/qmainwindow.h \
+  F:/Qt/6.7.0/mingw_64/include/QtWidgets/qmessagebox.h \
   F:/Qt/6.7.0/mingw_64/include/QtWidgets/qsizepolicy.h \
   F:/Qt/6.7.0/mingw_64/include/QtWidgets/qtabwidget.h \
   F:/Qt/6.7.0/mingw_64/include/QtWidgets/qtwidgets-config.h \

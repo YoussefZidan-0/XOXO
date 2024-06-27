@@ -295,11 +295,11 @@ Qt6Core_DIR:PATH=F:/Qt/6.7.0/mingw_64/lib/cmake/Qt6Core
 //The directory containing a CMake configuration file for Qt6EntryPointPrivate.
 Qt6EntryPointPrivate_DIR:PATH=F:/Qt/6.7.0/mingw_64/lib/cmake/Qt6EntryPointPrivate
 
-//The directory containing a CMake configuration file for Qt6GuiTools.
-Qt6GuiTools_DIR:PATH=F:/Qt/6.7.0/mingw_64/lib/cmake/Qt6GuiTools
-
 //The directory containing a CMake configuration file for Qt6Gui.
 Qt6Gui_DIR:PATH=F:/Qt/6.7.0/mingw_64/lib/cmake/Qt6Gui
+
+//The directory containing a CMake configuration file for Qt6Sql.
+Qt6Sql_DIR:PATH=F:/Qt/6.7.0/mingw_64/lib/cmake/Qt6Sql
 
 //The directory containing a CMake configuration file for Qt6WidgetsTools.
 Qt6WidgetsTools_DIR:PATH=F:/Qt/6.7.0/mingw_64/lib/cmake/Qt6WidgetsTools
@@ -1036,6 +1036,8 @@ QT_FEATURE_splashscreen:INTERNAL=ON
 QT_FEATURE_splitter:INTERNAL=ON
 //Qt feature: sql (from target Qt6::Core)
 QT_FEATURE_sql:INTERNAL=ON
+//Qt feature: sqlmodel (from target Qt6::Sql)
+QT_FEATURE_sqlmodel:INTERNAL=ON
 //Qt feature: sse2 (from target Qt6::Core)
 QT_FEATURE_sse2:INTERNAL=ON
 //Qt feature: sse3 (from target Qt6::Core)
