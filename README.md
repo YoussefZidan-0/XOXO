@@ -28,6 +28,8 @@ This project aims to develop an advanced version of the Tic Tac Toe game, featur
 - **Database:** SQLite or custom file storage for user data and game histories.
 - **Security Practices:** Secure hashing algorithms for password storage.
 - **GUI Framework:** Qt or similar libraries suitable for C++.
+  
+![WhatsApp Image 2024-06-27 at 12 05 13 PM](https://github.com/YoussefZidan-0/XOXO/assets/125583818/bb9cd4c3-baf0-4347-9f96-293f8d7d9729)
 
 ## Deliverables
 1. **Software Requirements Specification (SRS):** Functional and non-functional requirements, including game rules, system behavior, and performance requirements.
