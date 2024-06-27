@@ -246,13 +246,48 @@
 		"F:/Qt/6.7.0/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginTargets.cmake",
 		"F:/Qt/6.7.0/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginTargets-relwithdebinfo.cmake",
 		"F:/Qt/6.7.0/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginAdditionalTargetInfo.cmake",
-		"F:/CLion 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/GNUInstallDirs.cmake"
+		"F:/Qt/6.7.0/mingw_64/lib/cmake/Qt6Sql/Qt6SqlConfigVersion.cmake",
+		"F:/Qt/6.7.0/mingw_64/lib/cmake/Qt6Sql/Qt6SqlConfigVersionImpl.cmake",
+		"F:/Qt/6.7.0/mingw_64/lib/cmake/Qt6Sql/Qt6SqlConfig.cmake",
+		"F:/CLion 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake",
+		"F:/Qt/6.7.0/mingw_64/lib/cmake/Qt6Sql/Qt6SqlDependencies.cmake",
+		"F:/Qt/6.7.0/mingw_64/lib/cmake/Qt6Sql/Qt6SqlTargets.cmake",
+		"F:/Qt/6.7.0/mingw_64/lib/cmake/Qt6Sql/Qt6SqlTargets-relwithdebinfo.cmake",
+		"F:/Qt/6.7.0/mingw_64/lib/cmake/Qt6Sql/Qt6SqlAdditionalTargetInfo.cmake",
+		"F:/Qt/6.7.0/mingw_64/lib/cmake/Qt6Sql/Qt6SqlVersionlessTargets.cmake",
+		"F:/Qt/6.7.0/mingw_64/lib/cmake/Qt6Sql/Qt6SqlPlugins.cmake",
+		"F:/Qt/6.7.0/mingw_64/lib/cmake/Qt6Sql/Qt6QMimerSQLDriverPluginConfig.cmake",
+		"F:/CLion 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake",
+		"F:/Qt/6.7.0/mingw_64/lib/cmake/Qt6Sql/Qt6QMimerSQLDriverPluginTargets.cmake",
+		"F:/Qt/6.7.0/mingw_64/lib/cmake/Qt6Sql/Qt6QMimerSQLDriverPluginTargets-relwithdebinfo.cmake",
+		"F:/Qt/6.7.0/mingw_64/lib/cmake/Qt6Sql/Qt6QMimerSQLDriverPluginAdditionalTargetInfo.cmake",
+		"F:/Qt/6.7.0/mingw_64/lib/cmake/Qt6Sql/Qt6QODBCDriverPluginConfig.cmake",
+		"F:/CLion 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake",
+		"F:/Qt/6.7.0/mingw_64/lib/cmake/Qt6Sql/Qt6QODBCDriverPluginTargets.cmake",
+		"F:/Qt/6.7.0/mingw_64/lib/cmake/Qt6Sql/Qt6QODBCDriverPluginTargets-relwithdebinfo.cmake",
+		"F:/Qt/6.7.0/mingw_64/lib/cmake/Qt6Sql/Qt6QODBCDriverPluginAdditionalTargetInfo.cmake",
+		"F:/Qt/6.7.0/mingw_64/lib/cmake/Qt6Sql/Qt6QPSQLDriverPluginConfig.cmake",
+		"F:/CLion 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake",
+		"F:/Qt/6.7.0/mingw_64/lib/cmake/Qt6Sql/Qt6QPSQLDriverPluginTargets.cmake",
+		"F:/Qt/6.7.0/mingw_64/lib/cmake/Qt6Sql/Qt6QPSQLDriverPluginTargets-relwithdebinfo.cmake",
+		"F:/Qt/6.7.0/mingw_64/lib/cmake/Qt6Sql/Qt6QPSQLDriverPluginAdditionalTargetInfo.cmake",
+		"F:/Qt/6.7.0/mingw_64/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginConfig.cmake",
+		"F:/CLion 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake",
+		"F:/Qt/6.7.0/mingw_64/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginTargets.cmake",
+		"F:/Qt/6.7.0/mingw_64/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginTargets-relwithdebinfo.cmake",
+		"F:/Qt/6.7.0/mingw_64/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginAdditionalTargetInfo.cmake"
 	],
 	"CMAKE_SOURCE_DIR" : "C:/Users/white/OneDrive/Documents/QtDesignStudio/XOXO",
 	"DEP_FILE" : "C:/Users/white/OneDrive/Documents/QtDesignStudio/XOXO/cmake-build-debug/XOXO_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "XOXO_autogen/timestamp",
 	"HEADERS" : 
 	[
+		[
+			"C:/Users/white/OneDrive/Documents/QtDesignStudio/XOXO/DatabaseManager.h",
+			"MU",
+			"EWIEGA46WW/moc_DatabaseManager.cpp",
+			null
+		],
 		[
 			"C:/Users/white/OneDrive/Documents/QtDesignStudio/XOXO/board.h",
 			"MU",
@@ -280,7 +315,7 @@
 		"MINGW_HAS_SECURE_API=1",
 		"QT_CORE_LIB",
 		"QT_GUI_LIB",
-		"QT_NEEDS_QMAIN",
+		"QT_SQL_LIB",
 		"QT_WIDGETS_LIB",
 		"UNICODE",
 		"WIN32",
@@ -303,6 +338,7 @@
 		"F:/Qt/6.7.0/mingw_64/mkspecs/win32-g++",
 		"F:/Qt/6.7.0/mingw_64/include/QtWidgets",
 		"F:/Qt/6.7.0/mingw_64/include/QtGui",
+		"F:/Qt/6.7.0/mingw_64/include/QtSql",
 		"F:/CLion 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++",
 		"F:/CLion 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32",
 		"F:/CLion 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward",
@@ -344,6 +380,11 @@
 	"SETTINGS_FILE" : "C:/Users/white/OneDrive/Documents/QtDesignStudio/XOXO/cmake-build-debug/CMakeFiles/XOXO_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"C:/Users/white/OneDrive/Documents/QtDesignStudio/XOXO/DatabaseManager.cpp",
+			"MU",
+			null
+		],
 		[
 			"C:/Users/white/OneDrive/Documents/QtDesignStudio/XOXO/board.cpp",
 			"MU",
